@@ -1,8 +1,0 @@
-CREATE TABLE public.ESTADO
-(
-    CODESTADO 			integer   NOT NULL,
-    NOME 			character varying(100),
-	UF 				character varying(2),
-    PAIS 			character varying(30),
-    CONSTRAINT PK_CODESTADO PRIMARY KEY (CODESTADO)
-);
