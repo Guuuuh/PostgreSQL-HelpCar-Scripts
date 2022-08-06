@@ -1,0 +1,8 @@
+CREATE TABLE public.ESTADO
+(
+    CODESTADO 		integer   NOT NULL,
+    NOME 			varchar(100),
+	UF 				varchar(2),
+    PAIS 			varchar(30),
+    CONSTRAINT PK_CODESTADO PRIMARY KEY (CODESTADO)
+);
